@@ -1,4 +1,4 @@
-{{ config(schema='dwh_northwind' , materialized='view')}}
+{{ config(database='Result_Northwind', schema='dwh_northwind' , materialized='view') }}
 
 SELECT
     TO_CHAR(d, 'YYYY-MM-DD') AS id,

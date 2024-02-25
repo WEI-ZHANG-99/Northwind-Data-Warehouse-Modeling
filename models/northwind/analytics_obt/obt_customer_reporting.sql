@@ -1,4 +1,4 @@
-{{ config(schema='obt_northwind') }}
+{{ config(database='Result_Northwind', schema='obt_northwind') }}
 
 with source as (
     select

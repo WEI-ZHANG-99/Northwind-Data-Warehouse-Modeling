@@ -1,4 +1,4 @@
-{{ config(schema='dwh_northwind',
+{{ config(database='Result_Northwind', schema='dwh_northwind', 
     partition_by={
       "field": "order_date",
       "data_type": "date"
