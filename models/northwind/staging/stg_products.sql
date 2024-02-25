@@ -1,4 +1,5 @@
-{{ config(schema='stg_northwind') }}
+{{ config(database='Result_Northwind', schema='stg_northwind') }}
+
 
 with source as (
     select cast(supplier_ids as integer) as supplier_id,

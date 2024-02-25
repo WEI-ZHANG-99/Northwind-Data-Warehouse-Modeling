@@ -45,3 +45,9 @@ models:
         +materialized: table
       analytics_obt:
         +materialized: table
+        
+    practice_project_jaffle_shop:
+      staging:
+        +materialized: view    
+      marts:
+        +materialized: table
